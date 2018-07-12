@@ -15,6 +15,12 @@ class ViewController: UITableViewController {
         
         title = "Chronos"
         view.backgroundColor = UIColor.white
+        
+        let now = Date()
+        print("now: \(now)")
+        
+        let before = now - 7.seconds
+        print("before: \(before)")
     }
 
     override func didReceiveMemoryWarning() {
