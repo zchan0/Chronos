@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8B50FDB420F72E3A00D4FB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50FDB320F72E3A00D4FB40 /* AppDelegate.swift */; };
-		8B50FDB620F72E3A00D4FB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50FDB520F72E3A00D4FB40 /* ViewController.swift */; };
 		8B50FDBB20F72E3D00D4FB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B50FDBA20F72E3D00D4FB40 /* Assets.xcassets */; };
 		8B50FDBE20F72E3D00D4FB40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B50FDBC20F72E3D00D4FB40 /* LaunchScreen.storyboard */; };
 		8B50FDC920F72E3D00D4FB40 /* ChronosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50FDC820F72E3D00D4FB40 /* ChronosTests.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		8B50FDB020F72E3A00D4FB40 /* Chronos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B50FDB320F72E3A00D4FB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B50FDB520F72E3A00D4FB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B50FDBA20F72E3D00D4FB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B50FDBD20F72E3D00D4FB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B50FDBF20F72E3D00D4FB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				8B50FDB320F72E3A00D4FB40 /* AppDelegate.swift */,
-				8B50FDB520F72E3A00D4FB40 /* ViewController.swift */,
 				8B50FDD420F74D5900D4FB40 /* Extensions.swift */,
 				8B50FDD320F72E5F00D4FB40 /* Support Files */,
 			);
@@ -204,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B50FDB620F72E3A00D4FB40 /* ViewController.swift in Sources */,
 				8B50FDD520F74D5900D4FB40 /* Extensions.swift in Sources */,
 				8B50FDB420F72E3A00D4FB40 /* AppDelegate.swift in Sources */,
 			);
